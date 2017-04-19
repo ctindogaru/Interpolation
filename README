@@ -1,0 +1,12 @@
+Nume si prenume: Dogaru Constantin
+Grupa: 313CC
+Timp alocat rezolvarii temei: 12 ore
+Dificultate tema: 7/10
+
+Detalii legate de implementare: 
+Pentru fiecare punct al temei am creat o functie F care se foloseste de o a doua functie, ce reprezinta implementarea propriu-zisa a problemei. Pentru prima functie, am creat matricea P corespunzatoare vectorului de valori f(x) si pentru fiecare element xi creat cu linespace am aflat valoarea yi, care reprezinta ultimul element de pe prima linie a matricei P.
+In a doua functie, pentru a afla yi, am aflat mai intai coeficientii a si b din ecuatia y = a * x + b, dupa care am inlocuit valorile.
+Pentru a treia functie, yi-ul reprezenta rezultatul ecuatiei yi = a + b * (xi - x) + c * (xi - x)^2 + d * (xi - x)^3, unde a, b, c si d vor fi calculati conform formulelor din curs, xi-ul reprezinta elementul din linspace, iar x-ul este cel mai apropiat element din vectorul x, mai mic decat xi.
+Pentru bonus, am folosit functia de la taskul 3, cu modificari la matricea A si coloana termenilor liberi b_sistem. Pentru derivata am folosit formula din enuntul temei.
+
+Pentru documentatie am folosit cursurile online de pe cs.curs, notitele luate de la cursuri, laboratoarele si http://en.wikiversity.org/wiki/Topic:Numerical_analysis/Neville%27s_algorithm_code pentru neville.
